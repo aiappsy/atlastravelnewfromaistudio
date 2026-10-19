@@ -350,7 +350,7 @@ export default function HowItWorksPage() {
               <p className="text-slate-600 leading-relaxed">
                 {locale === 'no'
                   ? 'Ja, helt uproblematisk. Prisparitetsklausuler gjelder utelukkende priser som annonseres åpent for allmennheten. Hoteller har i flere tiår tilbudt konfidensielle engrospriser gjennom lukkede medlemsklubber og bedriftsnettverk.'
-                  : 'Yes, 100% legal. Rate parity contracts only restrict publicly advertised prices. Hotels have legally distributed wholesale net rates to private, closed-loop membership organizations (like Costco Travel, FoundersCard, and corporate employee clubs) for over 30 years.'}
+                  : 'Yes, 100% legal. Rate parity contracts only restrict publicly advertised prices. Hotels have legally distributed wholesale net rates to private, closed-loop membership organizations (such as private travel clubs, executive buying groups, and corporate employee organizations) for over 30 years.'}
               </p>
             </div>
 
@@ -362,8 +362,8 @@ export default function HowItWorksPage() {
               </h5>
               <p className="text-slate-600 leading-relaxed">
                 {locale === 'no'
-                  ? 'Vi har samme forretningsmodell som Costco: et fast, årlig medlemskap på 1 290 kr (tilsvarer 107,50 kr per måned). Vi tar 0 kr i påslag på hotell, fly eller lounger, og gir deg 100 % av engrosrabatten uavkortet.'
-                  : 'We operate like Costco: on a transparent, flat annual membership (1 290 NOK/yr, ~$120/yr or ~107 NOK/mo) with 0 kr booking fees on everything (hotels, cars, flights, and lounges). We pass 100% of the raw B2B wholesale discount directly to you.'}
+                  ? 'Vi er bygget som en privat abonnementsklubb: et fast, årlig medlemskap på 1 290 kr (tilsvarer 107,50 kr per måned). Vi tar 0 kr i påslag på hotell, fly eller lounger, og gir deg 100 % av engrosrabatten uavkortet.'
+                  : 'We operate as a private closed-loop subscription club: on a transparent, flat annual membership (1 290 NOK/yr, ~$120/yr or ~107 NOK/mo) with 0 kr booking fees on everything (hotels, cars, flights, and lounges). We pass 100% of the raw B2B wholesale discount directly to you.'}
               </p>
             </div>
 

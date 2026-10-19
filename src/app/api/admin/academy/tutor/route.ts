@@ -267,7 +267,7 @@ What operational procedure or task would you like to review?`;
 To remain 100% legally compliant with global hotel franchise agreements and bedbank licenses:
 
 1. **Closed-Loop Gating**:
-   - You **must** position ATLAS as a private subscription club (like Costco for luxury travel).
+   - You **must** position ATLAS as a private subscription club (as an exclusive private membership club).
    - Public ads may display audit savings percentages and sample comparisons, but specific live checkout links must require user authentication.
 
 2. **Accurate Terminology**:

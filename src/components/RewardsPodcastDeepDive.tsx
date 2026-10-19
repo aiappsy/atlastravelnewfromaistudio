@@ -49,7 +49,7 @@ const CHAPTERS: Chapter[] = [
     seconds: 550,
     titleNo: 'ATLAS Travel Club: 0 kr Påslag & Prisparitets-fellen',
     titleEn: 'ATLAS Travel Club: 0% Markup & The Rate Parity Trap',
-    descNo: 'Costco-modellen, og hvorfor luksuscruise forbyr rabattering i kassen.',
+    descNo: 'den private abonnementsmodellen, og hvorfor luksuscruise forbyr rabattering i kassen.',
     descEn: 'The subscription model and why luxury cruise lines legally prohibit upfront discounts.'
   },
   {
