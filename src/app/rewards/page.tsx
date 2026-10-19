@@ -234,7 +234,7 @@ export default function RewardsPage() {
               </div>
             </div>
 
-            {/* OPTION 2: HOTEL BREAKS (CONNEX / HOLIDAY PLUS) */}
+            {/* OPTION 2: HOTEL BREAKS (EUROPEAN HOSPITALITY ALLOTMENT) */}
             <div className="p-5 rounded-2xl bg-gradient-to-b from-purple-50/40 to-slate-50 border border-purple-200/80 flex flex-col justify-between space-y-4">
               <div className="space-y-3">
                 <div className="w-10 h-10 rounded-xl bg-purple-500/10 border border-purple-400/20 flex items-center justify-center text-purple-600 font-bold">

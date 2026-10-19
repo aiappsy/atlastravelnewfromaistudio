@@ -562,7 +562,7 @@ export async function GET(req: NextRequest) {
       <div class="clearing-box">
         <div class="clearing-info">
           <div class="label" id="txt-clearing-title">
-            ${initialLang === 'no' ? 'Offisiell Oppgjørsnøkkel (Holiday Plus / Connex Clearing Network)' : 'Official Clearing Key (Holiday Plus / Connex Clearing Network)'}
+            ${initialLang === 'no' ? 'Offisiell Oppgjørsnøkkel (European Hotel Allotment Clearing Network)' : 'Official Clearing Key (European Hotel Allotment Clearing Network)'}
           </div>
           <div class="code">${voucherCode}</div>
           <div class="subtext" id="txt-clearing-sub">
@@ -580,10 +580,10 @@ export async function GET(req: NextRequest) {
       <div class="hotel-instructions">
         <h4 id="txt-inst-title">Front Desk Instructions / Rezeptionshinweise</h4>
         <p>
-          <strong>English:</strong> Please present this credential upon check-in. The lodging charge is covered in full via the Europe Hotel Allotment Clearing Network (Connex / Holiday Plus). Only published hotel half-board dining is to be billed directly to the guest upon checkout.
+          <strong>English:</strong> Please present this credential upon check-in. The lodging charge is covered in full via the European Hotel Allotment Clearing Network. Only published hotel half-board dining is to be billed directly to the guest upon checkout.
         </p>
         <p class="german">
-          <strong>Deutsch:</strong> Gültiger Hotel-Voucher. Die Übernachtungskosten sind über das Holiday Plus / Connex Verrechnungssystem vollständig abgedeckt. Der Gast begleicht lediglich die vereinbarte Halbpension bei Abreise vor Ort im Hotel.
+          <strong>Deutsch:</strong> Gültiger Hotel-Voucher. Die Übernachtungskosten sind über das Europäische Hotel-Allotment-Verrechnungssystem vollständig abgedeckt. Der Gast begleicht lediglich die vereinbarte Halbpension bei Abreise vor Ort im Hotel.
         </p>
       </div>
 
@@ -650,7 +650,7 @@ export async function GET(req: NextRequest) {
         valRoomCost: '0.00 EUR / $0.00 — 100% Cleared by ATLAS VIP Pass',
         rowMeals: 'Mandatory Meal Plan at Hotel:',
         valMeals: '${halfBoard} (settled directly at hotel checkout)',
-        clearingTitle: 'Official Clearing Key (Holiday Plus / Connex Clearing Network)',
+        clearingTitle: 'Official Clearing Key (European Hotel Allotment Clearing Network)',
         clearingSub: 'This authorized voucher code clears the room rate in full through the European Hotel Allotment Clearing Network.',
         transitTitle: 'Airport Arrival & Transit Copilot',
         transitSub: 'Need a private chauffeur, wholesale car rental, or scenic train to the property? Access your route plan in Atlas.',
@@ -679,7 +679,7 @@ export async function GET(req: NextRequest) {
         valRoomCost: '0 kr / 0.00 EUR — 100% Dekket av ATLAS VIP-Pass',
         rowMeals: 'Måltidsordning (Halvpensjon):',
         valMeals: '${halfBoard} (oppgjøres direkte på hotellet ved utsjekk)',
-        clearingTitle: 'Offisiell Oppgjørsnøkkel (Holiday Plus / Connex Clearing Network)',
+        clearingTitle: 'Offisiell Oppgjørsnøkkel (Europeisk Hotellkvotenettverk)',
         clearingSub: 'Denne autoriserte koden bekrefter at romprisen er fullt oppgjort gjennom det europeiske hotellkvotenettverket.',
         transitTitle: 'Flyplass & Transport (AI Ruteassistent)',
         transitSub: 'Trenger du privatsjåfør, leiebil eller tog til hotellet? Se dine 3 alternativer og spør AI Ruteassistenten.',

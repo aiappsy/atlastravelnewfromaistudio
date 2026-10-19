@@ -245,7 +245,7 @@ export default function HowItWorksPage() {
             <div className="p-5 rounded-2xl bg-white/5 border border-white/10 space-y-2">
               <div className="text-amber-400 font-bold text-sm flex items-center gap-2">
                 <span>🏖️</span>
-                <span>{locale === 'no' ? 'RCI / Timeshare Allotments' : 'RCI Timeshare Surplus'}</span>
+                <span>{locale === 'no' ? 'Resort Leilighetsallotment' : 'Resort Condo Allotment'}</span>
               </div>
               <p className="text-xs text-slate-300 leading-relaxed">
                 {locale === 'no'
@@ -257,11 +257,11 @@ export default function HowItWorksPage() {
             <div className="p-5 rounded-2xl bg-white/5 border border-white/10 space-y-2">
               <div className="text-emerald-400 font-bold text-sm flex items-center gap-2">
                 <span>🏨</span>
-                <span>{locale === 'no' ? 'Holiday Plus / Connex Hotellopphold' : 'Holiday Plus Hotel Breaks'}</span>
+                <span>{locale === 'no' ? 'Europeiske Hotellopphold (0 kr Rom)' : 'European Hotel Breaks (€0 Room)'}</span>
               </div>
               <p className="text-xs text-slate-300 leading-relaxed">
                 {locale === 'no'
-                  ? 'Kvalitetshoteller og boutique-resorter tilbyr gratis overnatting (0 kr rompris) for 2 personer fordi de vet at gjestene spiser i restauranten. Du betaler kun hotellets faste, rimelige halvpensjonspris ved utsjekk, og hotellet fyller kapasitet uten å bryte offentlige rompriser.'
+                  ? 'Kvalitetshoteller og boutique-resorter tilbyr overnatting til 0 kr rompris for 2 personer fordi de vet at gjestene spiser i restauranten. Du betaler kun hotellets faste, rimelige halvpensjonspris ved utsjekk, og hotellet fyller kapasitet uten å bryte offentlige rompriser.'
                   : 'Curated partner hotels offer complimentary rooms ($0 room rate) for 2 guests because they generate restaurant and beverage revenue. You pay only the published fixed half-board rate at checkout, filling empty capacity without triggering public rate parity alarms.'}
               </p>
             </div>

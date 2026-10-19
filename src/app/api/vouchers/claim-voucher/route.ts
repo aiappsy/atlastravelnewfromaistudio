@@ -1,13 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { INITIAL_CONNEX_POOL, ConnexVoucher } from '@/lib/vouchers/connexPool';
+import { INITIAL_HOTEL_VOUCHER_POOL, HotelVoucher } from '@/lib/vouchers/hotelVoucherPool';
 
 // In-memory runtime cache for the session (synced with persistent DB)
-let runtimePool: ConnexVoucher[] = [...INITIAL_CONNEX_POOL];
+let runtimePool: HotelVoucher[] = [...INITIAL_HOTEL_VOUCHER_POOL];
 
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { email, userName } = body;
+    const { email } = body;
 
     if (!email) {
       return NextResponse.json({ error: 'Email is required' }, { status: 400 });
@@ -31,7 +31,6 @@ export async function POST(req: NextRequest) {
     const availableIndex = runtimePool.findIndex((v) => v.status === 'available');
 
     if (availableIndex === -1) {
-      // In production: triggers alert to admin (e.g. low stock webhook)
       return NextResponse.json(
         {
           error: 'Voucher pool empty',
@@ -42,7 +41,7 @@ export async function POST(req: NextRequest) {
     }
 
     // Assign the voucher
-    const assignedVoucher: ConnexVoucher = {
+    const assignedVoucher: HotelVoucher = {
       ...runtimePool[availableIndex],
       status: 'assigned',
       assignedTo: email,
@@ -58,9 +57,12 @@ export async function POST(req: NextRequest) {
       success: true,
       voucher: assignedVoucher,
       remainingPool: remainingAvailable,
-      message: 'Ditt Atlas Gourmet & Spa-pass er aktivert og klart til bruk!',
+      message: 'Gourmet & Spa Hotellpass er aktivert!',
     });
-  } catch (err: any) {
-    return NextResponse.json({ error: err.message || 'Internal server error' }, { status: 500 });
+  } catch (error: any) {
+    return NextResponse.json(
+      { error: 'Failed to process voucher claim', details: error.message },
+      { status: 500 }
+    );
   }
 }

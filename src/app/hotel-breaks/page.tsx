@@ -100,7 +100,7 @@ export interface HotelBreakItem {
 export const HOTEL_BREAKS_DATA: HotelBreakItem[] = [
   {
     id: 'dolomites-alpine-hotel',
-    name: 'Alpenresort Belvedere & Wellness',
+    name: 'Dolomites Alpine Panorama Resort & Wellness',
     region: 'Syd-Tirol / Dolomittene, Italia',
     country: 'italy',
     location: 'Molveno, Dolomittene',
@@ -156,7 +156,7 @@ export const HOTEL_BREAKS_DATA: HotelBreakItem[] = [
   },
   {
     id: 'chianti-castle-wine',
-    name: 'Castello di Spaltenna Estate & Hotel',
+    name: 'Tuscan Castle Vineyard Estate & Spa',
     region: 'Toscana, Italia',
     country: 'italy',
     location: 'Gaiole in Chianti, Toscana',
@@ -212,7 +212,7 @@ export const HOTEL_BREAKS_DATA: HotelBreakItem[] = [
   },
   {
     id: 'schwarzwald-thermal-park',
-    name: 'Parkhotel Adler & Black Forest Retreat',
+    name: 'Black Forest Heritage Park Retreat',
     region: 'Schwarzwald, Tyskland',
     country: 'germany',
     location: 'Hinterzarten, Tyskland',
@@ -268,7 +268,7 @@ export const HOTEL_BREAKS_DATA: HotelBreakItem[] = [
   },
   {
     id: 'salzburg-alpine-wellness',
-    name: 'Gut Brandlhof Alpine Resort & Golf',
+    name: 'Salzburg Alpine Valley Resort & Golf',
     region: 'Salzburger Land, Østerrike',
     country: 'austria',
     location: 'Saalfelden, Østerrike',
@@ -324,7 +324,7 @@ export const HOTEL_BREAKS_DATA: HotelBreakItem[] = [
   },
   {
     id: 'provence-lavender-estate',
-    name: 'Domaine de l\'Enclos & Provence Country House',
+    name: 'Provence Lavender Country Estate',
     region: 'Provence, Frankrike',
     country: 'france',
     location: 'Gordes / Luberon, Frankrike',
@@ -380,7 +380,7 @@ export const HOTEL_BREAKS_DATA: HotelBreakItem[] = [
   },
   {
     id: 'lake-garda-panorama',
-    name: 'Grand Hotel Riva & Garda Lakeside',
+    name: 'Lake Garda Lakeside Panoramic Resort & Spa',
     region: 'Gardasjøen, Italia',
     country: 'italy',
     location: 'Riva del Garda, Italia',
@@ -484,7 +484,7 @@ export default function HotelBreaksPage() {
     setError(null);
 
     try {
-      const res = await fetch('/api/vouchers/claim-connex', {
+      const res = await fetch('/api/vouchers/claim-voucher', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email: user.email }),

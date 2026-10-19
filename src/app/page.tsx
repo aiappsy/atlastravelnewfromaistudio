@@ -216,8 +216,8 @@ export default function LuxuryHomePage() {
             </h2>
             <p className="text-sm text-slate-600 mt-1 max-w-2xl">
               {locale === 'no'
-                ? 'Gjennom lukkede overskuddsavtaler med RCI og Connex gir vi medlemmene tilgang til hele ferieleiligheter til fast lavpris og gratis hotellopphold.'
-                : 'Through closed liquidation agreements with RCI and Connex, members access 7-night whole-condo stays and complimentary hotel room lodging.'}
+                ? 'Gjennom lukkede overskuddsavtaler gir vi medlemmene tilgang til hele ferieleiligheter til fast lavpris og gratis hotellopphold.'
+                : 'Through closed surplus allotment agreements, members access 7-night whole-condo stays and complimentary hotel room lodging.'}
             </p>
           </div>
           <div className="text-xs text-slate-500 font-medium">
@@ -239,7 +239,7 @@ export default function LuxuryHomePage() {
                 {locale === 'no' ? '7 Netters Ukesopphold' : '7-Night Condo Stays'}
               </div>
               <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-slate-900/80 backdrop-blur-md text-white text-[11px] font-bold border border-white/20">
-                {locale === 'no' ? 'RCI / Panorama Allotment' : 'RCI Surplus Allotment'}
+                {locale === 'no' ? 'Resort Allotment' : 'Resort Allotment'}
               </div>
               <div className="absolute bottom-4 left-4 right-4 text-white">
                 <div className="text-xs font-bold text-amber-300 uppercase tracking-wider">Atlas Signature Resorts</div>
@@ -300,7 +300,7 @@ export default function LuxuryHomePage() {
                 {locale === 'no' ? '0 kr Rompris' : '$0 Room Rate'}
               </div>
               <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-slate-900/80 backdrop-blur-md text-white text-[11px] font-bold border border-white/20">
-                {locale === 'no' ? 'Holiday Plus / Connex' : 'Holiday Plus Hotel Network'}
+                {locale === 'no' ? 'Europeisk Hotellallotment' : 'European Hospitality Allotment'}
               </div>
               <div className="absolute bottom-4 left-4 right-4 text-white">
                 <div className="text-xs font-bold text-amber-300 uppercase tracking-wider">Atlas Hotel Breaks</div>

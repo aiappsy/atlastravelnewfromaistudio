@@ -134,8 +134,8 @@ You have deep mastery over the entire ATLAS platform, hospitality law, global B2
 CORE ATLAS PLATFORM KNOWLEDGE:
 0. Legal Identity & Official Launch (January 4, 2027):
    - Legal Entity: HARD ROCK CAPITAL LTD (UK Reg. #16833237, 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ, UK). Founder & MD: Pål Juritzen.
-   - Official Launch Date: Monday January 4, 2027 at 10:00 AM CET.
-   - Founding 100 Member Perk: The first 100 paying members (1 290 NOK / yr) receive a 100% Free 3-Day European Hotel Break for 2 (worth 5 400 kr / $520) via Connex (Holiday Plus), plus automatic entry into the draw where 3 of 100 win ALL gourmet meals (half-board) fully covered by ATLAS.
+   - Official Launch Date: Wednesday January 20, 2027 at 10:00 AM CET.
+   - Founding 100 Member Perk: The first 100 paying members (1 290 NOK / yr) receive a 100% Free 3-Day European Hotel Break for 2 (worth 5 400 kr / $520) via European Hospitality Allotment Vouchers, plus automatic entry into the draw where 3 of 100 win ALL gourmet meals (half-board) fully covered by ATLAS.
    - 48-Hour Forfeiture Rule: Allocations on launch day are reserved for 48 hours; unactivated spots are forfeited and passed to the next applicant on the waitlist.
    - 100% Commission Rebate: 100% of commissions from cruise lines (10–16%) and car rentals are rebated directly to the member's Rewards Vault. ATLAS does not retain travel commissions.
 
@@ -216,7 +216,7 @@ CORE ATLAS PLATFORM KNOWLEDGE:
    - Legal: Accommodation only; members book their own wholesale flights separately. Exempt from Norwegian Package Travel Act (Pakkereiseloven).
 
 14. Atlas Hotel Breaks (/hotel-breaks):
-   - Handpicked 3–5* partner hotels across the Alps, Dolomites, Black Forest, Tuscany, Lake Garda, Provence liquidated via Holiday Plus / Connex.
+   - Handpicked 3–5* partner hotels across the Alps, Dolomites, Black Forest, Tuscany, Lake Garda, Provence liquidated via European hospitality allotment vouchers.
    - Room Rate: 0 NOK / $0 (complimentary 2–6 night lodging for 2 adults).
    - Transparent Economics: The guest pays only the hotel's published fixed half-board rate (€35–€60/person/day for breakfast and multi-course dinner) directly at hotel checkout.
    - Proves verified savings of 6 700+ NOK per getaway compared to Booking.com. Instant on-site booking and official check-in certificate generated at /hotel-breaks.
@@ -606,12 +606,12 @@ function generateDomainConciergeResponse(
   // 21. ATLAS HOTEL BREAKS (0 KR ROMPRIS / HALVPENSJON)
   else if (
     q.includes('hotel break') || q.includes('hotellopphold') || q.includes('spa') ||
-    q.includes('gourmet') || q.includes('connex') || q.includes('holiday plus') ||
+    q.includes('gourmet') || q.includes('hotellkupong') ||
     q.includes('0 kr') || q.includes('halvpensjon') || q.includes('dolomitt') ||
     q.includes('velvære') || q.includes('alpeferie') || q.includes('rompris') ||
     q.includes('frokost') || q.includes('middag')
   ) {
-    reply = `🏨 **Atlas Hotel Breaks — 0 kr i Rompris (/hotel-breaks):**\n\nGjennom vårt partnerskap med Holiday Plus (Connex) fyller utvalgte 3–5* kvalitetshoteller i Europa ledig kapasitet med en genial modell:\n\n• **Rompris**: **0 NOK** (gratis opphold for 2 personer i 2–6 netter).\n• **100% Transparent Økonomi**: Du betaler kun hotellets offisielle, faste halvpensjonspris (**€35–€60 per person/dag**) for rikholdig frokost og fleretters middag direkte ved utsjekk på hotellet.\n• **Dokumentert besparelse**: Sparer typisk **over 6 700 NOK** per helg eller miniferie sammenlignet med Booking.com og Expedia.\n• **Håndplukkede destinasjoner**: Dolomittene (Sør-Tyrol), Chianti (Toscana), Schwarzwald (Tyskland), Salzburg (Østerrike), Gardasjøen og Provence.\n• **Offisielt innsjekkingssertifikat**: Generer og last ned ditt offisielle A4-sertifikat for enkel innsjekk på hotellet.\n\nUtforsk og reserver ditt opphold på [Atlas Hotel Breaks](/hotel-breaks)!`;
+    reply = `🏨 **Atlas Hotel Breaks — 0 kr i Rompris (/hotel-breaks):**\n\nGjennom lukkede europeiske hotell-allotments fyller utvalgte 3–5* kvalitetshoteller i Europa ledig kapasitet med en genial modell:\n\n• **Rompris**: **0 NOK** (gratis opphold for 2 personer i 2–6 netter).\n• **100% Transparent Økonomi**: Du betaler kun hotellets offisielle, faste halvpensjonspris (**€35–€60 per person/dag**) for rikholdig frokost og fleretters middag direkte ved utsjekk på hotellet.\n• **Dokumentert besparelse**: Sparer typisk **over 6 700 NOK** per helg eller miniferie sammenlignet med Booking.com og Expedia.\n• **Håndplukkede destinasjoner**: Dolomittene (Sør-Tyrol), Chianti (Toscana), Schwarzwald (Tyskland), Salzburg (Østerrike), Gardasjøen og Provence.\n• **Offisielt innsjekkingssertifikat**: Generer og last ned ditt offisielle A4-sertifikat for enkel innsjekk på hotellet.\n\nUtforsk og reserver ditt opphold på [Atlas Hotel Breaks](/hotel-breaks)!`;
   }
 
   // 21b. AIRPORT-TO-HOTEL GROUND TRANSIT & ROUTE ASSISTANT

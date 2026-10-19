@@ -24,8 +24,8 @@ export const INITIAL_B2B_ORGANIZATIONS: B2BOrganization[] = [
     annualFeePerSeatNok: 640,
     estimatedSavingsYtdNok: 312000,
     features: [
-      'Ubegrenset tilgang til 1 000 000+ engroshoteller (WebBeds)',
-      'Direkte flyavtaler med 0 % OTA-påslag (Duffel NDC)',
+      'Ubegrenset tilgang til 1 000 000+ engroshoteller til B2B-nettopris',
+      'Direkte flyavtaler med 0 % OTA-påslag (Global NDC)',
       'Automatisk EU261 €600 forsinkelsesovervåking',
       'Digitalt Atlas Agent-pass for Apple & Google Wallet',
       'Egne fakturaer med MVA-spesifikasjon for fradrag',
