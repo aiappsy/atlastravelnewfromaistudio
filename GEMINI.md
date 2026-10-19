@@ -4,8 +4,12 @@
 > 1. **Operating Entity**: **HARD ROCK CAPITAL LTD** (UK Company #16833237, 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ, United Kingdom).
 > 2. **Founder & Managing Director**: **Pål Juritzen** (`paljuritzen@gmail.com`, `+47 40059493`).
 > 3. **Business Objective**: Flawless, verified credibility to drive signups, delight members with authentic wholesale rates (0 kr markup), and rebate 100% of commissions as Rewards Vault points.
-> 4. **Strict Points Liquidity Guard**: Points earned from travel bookings are `🟡 Pending (In Escrow)` until partner commissions physically clear in our bank account (30–60 days). Only cleared points can be redeemed.
-> 5. **FORBIDDEN**: NEVER use "Atlas Global AS" or "ATLAS VIP Platform Inc." under any circumstances.
+> 4. **Membership Model**: Private annual subscription travel club (€110 / 1 290 NOK per year). Never use "Costco" in member-facing copy or audio scripts.
+> 5. **Welcome Perk Ground Truth**: Founding Members receive a **Complimentary European Weekend Break for 2** (value up to 4 500 NOK / €400) — flexible boutique accommodation with NO meal requirements and NO half-board traps.
+> 6. **100% Money-Back Value Guarantee**: If a member doesn't save more than the annual fee in year 1, 100% refunded.
+> 7. **Strict Points Liquidity Guard**: Points earned from travel bookings are `🟡 Pending (In Escrow)` until partner commissions physically clear in our bank account (30–60 days). Only cleared points can be redeemed.
+> 8. **FORBIDDEN**: NEVER use "Atlas Global AS" or "ATLAS VIP Platform Inc." under any circumstances.
+> 9. **FORBIDDEN TRADEMARKS**: NEVER mention "Connex", "Holiday Plus", "Awardit", or specific unpartnered resort/hotel brand names anywhere in code, copy, or customer comms.
 
 ---
 
