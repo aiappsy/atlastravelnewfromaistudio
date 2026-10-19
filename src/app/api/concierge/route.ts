@@ -229,30 +229,30 @@ CORE ATLAS PLATFORM KNOWLEDGE:
      3) Scenic European Express Rail & Mountain Transit: Europe's premier train networks (Trenitalia/Frecciarossa, SBB, ÖBB, DB, SNCF TGV) offer eco-friendly, fast, scenic travel directly to regional stations, followed by hotel courtesy shuttles or local resort buses.
      4) Hotel Courtesy Shuttle & Resort Express: Many partner hotels operate scheduled shuttle vans to/from the nearest train station or regional airport for guests.
    - Specific Destination Routing Knowledge:
-     * Dolomites / Molveno (Alpenresort Belvedere):
+     * Dolomites / Molveno (Dolomites Alpine Panorama Resort & Wellness):
        - Primary: Verona Villafranca (VRN) - 1h 25m drive (125 km) north via A22 Brenner Autostrada (exit San Michele all'Adige / Mezzocorona).
        - Alternates: Milan Bergamo (BGY) - 2h 10m (180 km); Venice Marco Polo (VCE) - 2h 20m.
        - Rail: Trenitalia / Frecciarossa to Mezzocorona or Trento, then local Trentino Trasporti B611 bus or hotel shuttle (25m).
        - Car Rental: Highly recommended for Dolomites mountain touring.
-     * Tuscany / Chianti (Castello di Spaltenna):
+     * Tuscany / Chianti (Tuscan Castle Vineyard Estate & Spa):
        - Primary: Florence Amerigo Vespucci (FLR) - 55m drive (65 km) via SR222 Chiantigiana wine road.
        - Alternates: Pisa Galileo Galilei (PSA) - 1h 30m; Bologna (BLQ) - 1h 45m.
        - Rail: Regionale Veloce from Firenze SMN to Montevarchi-Terranuova (35m) + 15 min taxi/hotel car to Gaiole.
        - Car Rental: Essential for visiting medieval Tuscan hamlets and wineries.
-     * Black Forest / Hinterzarten (Parkhotel Adler):
+     * Black Forest / Hinterzarten (Black Forest Heritage Park Retreat):
        - Primary: EuroAirport Basel-Mulhouse-Freiburg (BSL/MLH) - 55m drive (75 km).
        - Alternates: Zurich Airport (ZRH) - 1h 15m (85 km); Stuttgart (STR) - 1h 35m.
        - Rail (Höllentalbahn): One of Germany's most scenic steep-grade railway lines! DB regional train from Freiburg Hbf directly to Hinterzarten Station (30 min). The hotel is 300 meters from the station.
-     * Austrian Alps / Saalfelden (Gut Brandlhof):
+     * Austrian Alps / Saalfelden (Salzburg Alpine Valley Resort & Golf):
        - Primary: Salzburg W.A. Mozart (SZG) - 55m drive (65 km) via Bad Reichenhall (Kleines Deutsches Eck).
        - Alternates: Innsbruck (INN) - 1h 35m; Munich (MUC) - 2h 00m.
        - Rail: ÖBB direct scenic train to Saalfelden station. Hotel provides complimentary private van pickup from Saalfelden station.
        - Vignette: Austrian highway toll vignette required if driving on Autobahn (~€11.50 for 10 days).
-     * Provence / Gordes (Domaine de l'Enclos):
+     * Provence / Gordes (Provence Lavender Country Estate):
        - Primary: Marseille Provence (MRS) - 55m drive (75 km) via A7.
        - Alternates: Avignon (AVN) - 35m; Nice (NCE) - 2h 15m; or TGV from Paris to Avignon TGV station (2h 40m).
        - Car Rental: Crucial for touring Luberon hilltop villages (Gordes, Roussillon, Ménerbes).
-     * Lake Garda / Riva del Garda (Grand Hotel Riva):
+     * Lake Garda / Riva del Garda (Lake Garda Lakeside Panoramic Resort & Spa):
        - Primary: Verona Villafranca (VRN) - 1h 05m drive (85 km) via A22 exit Rovereto Sud.
        - Alternates: Milan Bergamo (BGY) - 1h 40m; Venice (VCE) - 2h 05m.
        - Rail & Ferry: Train to Desenzano del Garda, then take the panoramic public passenger ferry across the full length of Lake Garda directly into Riva del Garda harbor!
@@ -624,8 +624,8 @@ function generateDomainConciergeResponse(
     q.includes('hvilken flyplass') || q.includes('which airport') || q.includes('transport')
   ) {
     if (isNorwegian) {
-      if (hasHotel && (hotelName.toLowerCase().includes('belvedere') || city.toLowerCase().includes('molveno') || q.includes('molveno') || q.includes('dolomitt'))) {
-        reply = `🚗 **Reiserute fra Flyplass til Alpenresort Belvedere (Molveno, Dolomittene):**\n\n` +
+      if (hasHotel && (hotelName.toLowerCase().includes('dolomite') || city.toLowerCase().includes('molveno') || q.includes('molveno') || q.includes('dolomitt'))) {
+        reply = `🚗 **Reiserute fra Flyplass til Dolomites Alpine Panorama Resort & Wellness (Molveno, Dolomittene):**\n\n` +
           `• ✈️ **Beste ankomstflyplasser:**\n` +
           `  1. **Verona Villafranca (VRN)**: **1t 25m** (125 km) — *Sterkt anbefalt! Raskest og enklest direkte nordover på A22 Brenner-motorveien.*\n` +
           `  2. **Milano Bergamo (BGY)**: **2t 10m** (180 km) — *Godt alternativ for direkte lavprisfly/SAS.*\n` +
@@ -639,8 +639,8 @@ function generateDomainConciergeResponse(
           `• 🚆 **Alternativ 3: Panoramatog + Hotellshuttle**\n` +
           `  - Ta Frecciarossa / Trenitalia-tog til **Mezzocorona Stasjon** (eller Trento).\n` +
           `  - Derfra går lokalbuss B611 eller hotellets forhåndsbestilte henting (25 minutter) opp til Molveno.`;
-      } else if (hasHotel && (hotelName.toLowerCase().includes('spaltenna') || city.toLowerCase().includes('chianti') || q.includes('chianti') || q.includes('toscana'))) {
-        reply = `🚗 **Reiserute fra Flyplass til Castello di Spaltenna (Gaiole in Chianti, Toscana):**\n\n` +
+      } else if (hasHotel && (hotelName.toLowerCase().includes('tuscan') || city.toLowerCase().includes('chianti') || q.includes('chianti') || q.includes('toscana'))) {
+        reply = `🚗 **Reiserute fra Flyplass til Tuscan Castle Vineyard Estate & Spa (Gaiole in Chianti, Toscana):**\n\n` +
           `• ✈️ **Beste ankomstflyplasser:**\n` +
           `  1. **Firenze Amerigo Vespucci (FLR)**: **55m** (65 km) — *Nærmeste flyplass! Enkel kjøring rett inn på SR222 Chiantigiana.*\n` +
           `  2. **Pisa Galileo Galilei (PSA)**: **1t 30m** (110 km) — *Mange direktefly fra Norge.*\n` +
@@ -652,8 +652,8 @@ function generateDomainConciergeResponse(
           `  - Mercedes E-Klasse fra FLR ankomst direkte til slottsporten for **ca. 1 350 kr (€120)**.\n\n` +
           `• 🚆 **Alternativ 3: Tog + Lokalbil**\n` +
           `  - 35 min med Regionale Veloce fra Firenze SMN til **Montevarchi-Terranuova**, deretter 20 min taxi/slottstransfer opp til Gaiole.`;
-      } else if (hasHotel && (hotelName.toLowerCase().includes('adler') || city.toLowerCase().includes('hinterzarten') || q.includes('schwarzwald') || q.includes('svartskogen'))) {
-        reply = `🚗 **Reiserute fra Flyplass til Parkhotel Adler (Hinterzarten, Schwarzwald):**\n\n` +
+      } else if (hasHotel && (hotelName.toLowerCase().includes('black forest') || city.toLowerCase().includes('hinterzarten') || q.includes('schwarzwald') || q.includes('svartskogen'))) {
+        reply = `🚗 **Reiserute fra Flyplass til Black Forest Heritage Park Retreat (Hinterzarten, Schwarzwald):**\n\n` +
           `• ✈️ **Beste ankomstflyplasser:**\n` +
           `  1. **EuroAirport Basel-Mulhouse-Freiburg (BSL)**: **55m** (75 km) — *Raskeste rute via A5.*\n` +
           `  2. **Zürich Airport (ZRH)**: **1t 15m** (85 km) — *Utmerket for direkteruter fra Oslo/Bergen.*\n` +
