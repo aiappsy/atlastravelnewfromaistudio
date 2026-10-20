@@ -49,8 +49,8 @@ const CHAPTERS: Chapter[] = [
     seconds: 550,
     titleNo: 'ATLAS Travel Club: 0 kr Påslag & Prisparitets-fellen',
     titleEn: 'ATLAS Travel Club: 0% Markup & The Rate Parity Trap',
-    descNo: 'den private abonnementsmodellen, og hvorfor luksuscruise forbyr rabattering i kassen.',
-    descEn: 'The subscription model and why luxury cruise lines legally prohibit upfront discounts.'
+    descNo: 'den private abonnementsmodellen, og hvorfor luksusleverandører forbyr rabattering i kassen.',
+    descEn: 'The subscription model and why luxury travel suppliers legally prohibit upfront discounts.'
   },
   {
     timestamp: '12:04',
@@ -183,8 +183,8 @@ export default function RewardsPodcastDeepDive() {
             </div>
             <h3 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
               {isNo
-                ? 'Slik erstatter Apple Wallet apper og låser opp 100 % cruise-kickback'
-                : 'How Digital Wallets Replace Loyalty Apps & Unlock 100% Cruise Commissions'}
+                ? 'Slik erstatter Apple Wallet apper og låser opp 100 % provisjons-kickback'
+                : 'How Digital Wallets Replace Loyalty Apps & Unlock 100% Travel Commissions'}
             </h3>
             <p className="text-xs sm:text-sm text-slate-400 mt-1.5 max-w-2xl">
               {isNo

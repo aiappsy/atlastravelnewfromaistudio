@@ -146,6 +146,18 @@ export default function CruisesPage() {
             {content.subtitle}
           </p>
 
+          {/* CRUISE INTEGRATION STATUS BANNER */}
+          <div className="mt-6 max-w-2xl mx-auto p-4 rounded-xl bg-slate-100 border border-slate-300 text-slate-700 text-xs leading-relaxed text-center">
+            <span className="font-bold text-slate-900 block mb-1">
+              {isNo ? '🚢 Status for cruisebooking' : '🚢 Cruise Integration Status'}
+            </span>
+            <p>
+              {isNo
+                ? 'Automatisert direktebestilling av cruise er midlertidig satt på pause i første lanseringsfase til fordel for 0 kr påslag på over 1 200 000 engroshoteller og NDC-fly. Ønsker du å bestille et luksuscruise med full provisjonsretur? Ta kontakt med vår concierge.'
+                : 'Automated self-serve cruise booking is currently paused for our initial launch phase as we prioritize 0% markup across 1.2M+ wholesale hotels and direct NDC flights. For bespoke cruise bookings with full commission rebates, please contact our concierge.'}
+            </p>
+          </div>
+
           {/* POINTS REWARDS CALLOUT BANNER */}
           <div className="mt-8 max-w-3xl mx-auto bg-gradient-to-r from-amber-500/10 via-amber-500/5 to-amber-500/10 border border-amber-300/60 rounded-2xl p-5 text-left flex flex-col md:flex-row items-center gap-5 shadow-xs">
             <div className="w-12 h-12 rounded-xl bg-amber-500/20 border border-amber-400 flex items-center justify-center text-2xl shrink-0">

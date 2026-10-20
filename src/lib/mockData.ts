@@ -190,7 +190,7 @@ export const MOCK_LIVE_RECEIPTS: LiveReceipt[] = [
 
 export const DEFAULT_PLATFORM_CONFIG: PlatformFeatureFlags = {
   enableHotels: true,
-  enableCruises: true,
+  enableCruises: false,
   enableLounges: true,
   enableEsim: true,
   enableFlightClaims: true,

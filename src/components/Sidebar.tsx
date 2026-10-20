@@ -10,7 +10,6 @@ import {
   Hotel,
   Plane,
   Coffee,
-  Ship,
   Sparkles,
   ShieldCheck,
   Palmtree,
@@ -50,13 +49,6 @@ export default function Sidebar() {
       icon: Coffee,
       badge: locale === 'no' ? '330 kr' : '$32',
       badgeColor: 'bg-amber-100 text-amber-800',
-    },
-    {
-      name: t.nav.cruises,
-      href: '/cruises',
-      icon: Ship,
-      badge: locale === 'no' ? 'Kickback' : 'Kickback',
-      badgeColor: 'bg-indigo-100 text-indigo-800',
     },
     {
       name: locale === 'no' ? 'Feriesuiter' : 'Resorts',

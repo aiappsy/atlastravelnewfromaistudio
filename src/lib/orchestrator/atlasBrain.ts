@@ -132,13 +132,9 @@ export class AtlasCentralBrain {
   /**
    * Domain Subagent 4: Cruise Navigator
    */
-  async cruiseSubAgent(destination: string, dateFrom?: string): Promise<TraveltekCruise[]> {
-    try {
-      return await traveltekProvider.searchCruises({ destination, dateFrom });
-    } catch (err) {
-      console.error('[Brain:CruiseSubAgent] Error fetching cruise itineraries:', err);
-      return [];
-    }
+  async cruiseSubAgent(_destination: string, _dateFrom?: string): Promise<TraveltekCruise[]> {
+    // Cruise integration is paused for the initial launch phase
+    return [];
   }
 
   /**

@@ -6,7 +6,7 @@
 > 3. **Business Objective**: Flawless, verified credibility to drive signups, delight members with authentic wholesale rates (0 kr markup), and rebate 100% of commissions as Rewards Vault points.
 > 4. **Membership Model**: Private annual subscription travel club (€110 / 1 290 NOK per year). Never use "Costco" in member-facing copy or audio scripts.
 > 5. **Welcome Perk Ground Truth**: Founding Members receive a **Complimentary European Weekend Break for 2** (value up to 4 500 NOK / €400) — flexible boutique accommodation with NO meal requirements and NO half-board traps.
-> 6. **100% Money-Back Value Guarantee**: If a member doesn't save more than the annual fee in year 1, 100% refunded.
+> 6. 5. **100% Money-Back Value Guarantee (Requires Active Booking & Travel)**: The guarantee is strictly tied to completed travel. A member must actually book and travel through ATLAS. If the verified wholesale savings on their completed bookings do not exceed their annual membership fee, ATLAS refunds 100% of their dues. Inactive members who do not book travel cannot claim the guarantee.
 > 7. **Strict Points Liquidity Guard**: Points earned from travel bookings are `🟡 Pending (In Escrow)` until partner commissions physically clear in our bank account (30–60 days). Only cleared points can be redeemed.
 > 8. **FORBIDDEN**: NEVER use "Atlas Global AS" or "ATLAS VIP Platform Inc." under any circumstances.
 > 9. **FORBIDDEN TRADEMARKS**: NEVER mention "Connex", "Holiday Plus", "Awardit", or specific unpartnered resort/hotel brand names anywhere in code, copy, or customer comms.
